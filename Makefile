@@ -1,6 +1,6 @@
 
 create-virtualenv:
-	virtualenv -p python3 .env
+	virtualenv -p python .env
 
 pip-install:
 	pip install -r requirements.txt
